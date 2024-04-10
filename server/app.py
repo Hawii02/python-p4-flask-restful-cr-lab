@@ -40,7 +40,7 @@ class Plants(Resource):
         response_dict = new_plant.to_dict()
         response = make_response(
             response_dict,
-            200,
+            201,
         )
         return response
     
